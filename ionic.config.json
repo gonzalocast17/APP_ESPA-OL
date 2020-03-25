@@ -1,0 +1,8 @@
+{
+  "name": "App_Español",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "ed1eb996"
+}

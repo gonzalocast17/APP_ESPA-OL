@@ -1,0 +1,27 @@
+<!-- <ion-header>
+  <ion-navbar class="fondo">
+    <ion-title>
+    
+    </ion-title>
+  </ion-navbar>
+</ion-header> -->
+
+<ion-content padding class="fondo">
+  <br>
+  <br>
+  <img src={{srcImagenTitulo}} />
+  <img src={{srcImagen1}} (click)="guardarImagen1();" />
+  <img src={{srcImagen2s}} (click)="guardarImagen2();" />
+  <br>
+  <br>
+  <br>
+  <div style="background-color:#8bd9f3">
+    <h4 style="text-align: center">Escribe tu nombre:</h4>
+  <ion-item>
+    <ion-input [disabled]="perfil_usuario.disabledInput" type="text" [(ngModel)]="perfil_usuario.nombre" placeholder="Escribe tu nombre"></ion-input>
+  </ion-item>
+  <br>
+</div>
+  <br> <br>
+  <img (click)="guardar();" class="boton-guardar" src="../../assets/imgs/pantallas/boton_guardar.png">
+</ion-content>
